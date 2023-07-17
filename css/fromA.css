@@ -1,0 +1,32 @@
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'colibri';
+  }
+ .form-group label {
+    margin-right: 10px;
+  }
+  .centro-1{
+    background-color: mediumaquamarine;
+    width: 100px;
+    font-family: 'calibri';
+    padding: 10px;
+  }
+  .text-center{
+    font-family: 'calibri';
+  }
+  footer{
+    background-color: #28a745;
+    color: black;
+    height: 60%;
+    text-align: center;
+    font-family: 'colibri';
+  }
+  footer{
+    padding: 1%;
+  }
+
+
+  

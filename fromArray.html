@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario Array</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/fromA.css">
+  
+</head>
+  <body>
+
+    <h1 class="text-center"> INGREDIENTES PARA UN ARROZ CON POLLO </h1>
+    <hr>
+    <div class="container text-center">
+        <div class="row justify-content-center mt-3">  
+            <div class="form-group">
+                <label for="pedido" class="float-left">categoria:</label>   
+                <input type="text" class="form-control" name="item" id="item" 
+                 placeholder="Ingrese los igredientes ">
+            </div>
+            <div class="col-12  text-center mb-2">
+                
+                <button  class="btn btn-success" type="button" class="btn btn-info" onclick="addItem()"> Agregar </button>
+            </div>
+            <p> Dudas con las porciones y gramaje <a href="https://www.quericavida.com/recetas/arroz-con-pollo-colombiano/46cd4fec-9143-4fac-b116-92b3558bc2c9" target="_blank">Clic aqui!</a></p>
+        </div>
+
+        <div class="centro-1" style="width: 90%; text-align: justify; margin: 5%;">
+            <h2 class="row justify-content-center mt-3"> Listado de Ingredientes</h2>
+            <hr>
+            <div class="row" id="formato"> No hay ingredientes</div>
+        </div>
+    </div>
+    <footer class="footer">
+      <p>Trabajo desarrollado por : Joao Navarro - Lain Arroyo</p>
+    </footer>
+
+    <script src="./js/from_Array.js">  </script>
+    
+</body>
+</html>
